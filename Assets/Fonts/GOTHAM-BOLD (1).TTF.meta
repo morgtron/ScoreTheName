@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9dcf74c94013df14a9a52f46abcba8ed
+timeCreated: 1484147843
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gotham Bold
+  fontNames:
+  - Gotham Bold
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

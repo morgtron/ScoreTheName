@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 15470d15804c36b4aaf69c2ac7de2c5e
+timeCreated: 1484166800
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlayerAnimationSpriteSheet_0
+    21300002: PlayerAnimationSpriteSheet_1
+    21300004: PlayerAnimationSpriteSheet_2
+    21300006: PlayerAnimationSpriteSheet_3
+    21300008: PlayerAnimationSpriteSheet_4
+    21300010: PlayerAnimationSpriteSheet_5
+    21300012: PlayerAnimationSpriteSheet_6
+    21300014: PlayerAnimationSpriteSheet_7
+    21300016: PlayerAnimationSpriteSheet_8
+    21300018: PlayerAnimationSpriteSheet_9
+    21300020: PlayerAnimationSpriteSheet_10
+    21300022: PlayerAnimationSpriteSheet_11
+    21300024: PlayerAnimationSpriteSheet_12
+    21300026: PlayerAnimationSpriteSheet_13
+    21300028: PlayerAnimationSpriteSheet_14
+    21300030: PlayerAnimationSpriteSheet_15
+    21300032: PlayerAnimationSpriteSheet_16
+    21300034: PlayerAnimationSpriteSheet_17
+    21300036: PlayerAnimationSpriteSheet_18
+    21300038: PlayerAnimationSpriteSheet_19
+    21300040: PlayerAnimationSpriteSheet_20
+    21300042: PlayerAnimationSpriteSheet_21
+    21300044: PlayerAnimationSpriteSheet_22
+    21300046: PlayerAnimationSpriteSheet_23
+    21300048: PlayerAnimationSpriteSheet_24
+    21300050: PlayerAnimationSpriteSheet_25
+    21300052: PlayerAnimationSpriteSheet_26
+    21300054: PlayerAnimationSpriteSheet_27
+    21300056: PlayerAnimationSpriteSheet_28
+    21300058: PlayerAnimationSpriteSheet_29
+    21300060: PlayerAnimationSpriteSheet_30
+    21300062: PlayerAnimationSpriteSheet_31
+    21300064: PlayerAnimationSpriteSheet_32
+    21300066: PlayerAnimationSpriteSheet_33
+    21300068: PlayerAnimationSpriteSheet_34
+    21300070: PlayerAnimationSpriteSheet_35
+    21300072: PlayerAnimationSpriteSheet_36
+    21300074: PlayerAnimationSpriteSheet_37
+    21300076: PlayerAnimationSpriteSheet_38
+    21300078: PlayerAnimationSpriteSheet_39
+    21300080: PlayerAnimationSpriteSheet_40
+    21300082: PlayerAnimationSpriteSheet_41
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 90
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1001
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 501
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerAnimationSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1
+        width: 499
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
