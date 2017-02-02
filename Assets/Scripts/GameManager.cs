@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
 
     public InputField inputField;
     public Text text;
     public LevelManager levelManager;
     public Animator anim;
-    public Animator anim2;
     public int score = 0;
-    TimerController scr_timerControl;
 
     public static GameManager instance = null;
     private string mySecretWord;
@@ -21,66 +21,60 @@ public class GameManager : MonoBehaviour {
         if (instance == null)
         {
             instance = this;
-        } else if (instance != this)
+        }
+        else if (instance != this)
         {
             Destroy(gameObject);
         }
 
         DontDestroyOnLoad(gameObject);
     }
-    
-
-    private void Start()
-    {
-        
-    }
 
     public void GetGuess()
     {
         string guess = inputField.text.ToUpper();
         Debug.Log(guess);
-        if (guess != null) { 
+        if (guess != null)
+        {
             if (guess == mySecretWord)
             {
                 anim.StopPlayback();
                 anim.SetBool("winner", true);
-                StopRotator();
                 score += 1;
-            } else
+            }
+            else
             {
-                StopRotator();
                 anim.StopPlayback();
                 anim.SetBool("loser", true);
             }
         }
     }
 
-    private void OnLevelWasLoaded(int level)
+    private void OnLevelWasLoaded()
     {
-        inputField = GameObject.Find("InputField").GetComponent<InputField>();
-        text = GameObject.Find("SecretName").GetComponent<Text>();
-        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
-        anim = GameObject.Find("Canvas").GetComponent<Animator>();
-        GetSecretWord();
+        Scene myScene = SceneManager.GetActiveScene();
+        if (myScene.buildIndex > 0 && myScene.buildIndex < 13)
+        {
+            inputField = GameObject.Find("InputField").GetComponent<InputField>();
+            text = GameObject.Find("SecretName").GetComponent<Text>();
+            levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+            anim = GameObject.Find("Canvas").GetComponent<Animator>();
+            GetSecretWord();
+        }
     }
 
     public void GetSecretWord()
     {
-        if (!inputField) {
+        if (!inputField)
+        {
             return;
-        } else
+        }
+        else
         {
             mySecretWord = text.text;
         }
     }
 
-    public void StopRotator()
-    {
-        anim2 = GameObject.Find("GradientRotator").GetComponent<Animator>();
-        anim2.Stop();
-       // scr_timerControl = GameObject.Find("Timer").GetComponent<TimerController>();
-        //scr_timerControl.speed = 0;
 
-    }
 
 }
