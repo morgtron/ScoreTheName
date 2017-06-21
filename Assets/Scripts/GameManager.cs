@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        Screen.SetResolution(1080, 1920, true);
         if (instance == null)
         {
             instance = this;
@@ -53,7 +54,7 @@ public class GameManager : MonoBehaviour
     private void OnLevelWasLoaded()
     {
         Scene myScene = SceneManager.GetActiveScene();
-        if (myScene.buildIndex > 0 && myScene.buildIndex < 13)
+        if (myScene.buildIndex > 0 && myScene.buildIndex < 47)
         {
             inputField = GameObject.Find("InputField").GetComponent<InputField>();
             text = GameObject.Find("SecretName").GetComponent<Text>();

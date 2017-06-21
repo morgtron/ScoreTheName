@@ -5,19 +5,35 @@ using UnityEngine.UI;
 
 public class ButtonController : MonoBehaviour
 {
-
+    public LevelManager levelManager;
     public Image image;
     public Animator anim;
 
-    public void SetStart()
+    private void Awake()
     {
-        anim.SetBool("isStarted", true);
-
+        levelManager = FindObjectOfType<LevelManager>();
     }
 
-    public void SetRules()
+    public void SetStart()
+    {
+        anim.SetBool("isStarted", true);        
+    }
+
+    public void SetRulesEasy()
     {
         anim.SetBool("rulesRead", true);
+        levelManager.difficulty = 1;
+    }
 
+    public void SetRulesMedium()
+    {
+        anim.SetBool("rulesRead", true);
+        levelManager.difficulty = 2;
+    }
+
+    public void SetRulesHard()
+    {
+        anim.SetBool("rulesRead", true);
+        levelManager.difficulty = 3;
     }
 }
