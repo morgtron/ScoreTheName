@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreTheName", "ScoreTheName.csproj", "{2A6FFF5E-C7C4-007F-30E1-5BE519C6F59B}"
 EndProject
 Global
